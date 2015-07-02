@@ -1,5 +1,6 @@
-class Skill < ActiveRecord::Base
-  has_many :projects
+class Project < ActiveRecord::Base
+  belongs_to :skill
+
   validates :name, :presence => true
   validates :description, :presence => true
   validates :number, :presence => true
