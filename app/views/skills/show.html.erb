@@ -15,6 +15,8 @@
 
 <% end %>
 
+<p><%= link_to "Add project to " + @skill.name, new_skill_project_path(@skill) %></p>
+
 <p><%= link_to "Edit " + @skill.name, edit_skill_path(@skill) %></p>
 
 <p><%= link_to "Delete " + @skill.name, skill_path(@skill),

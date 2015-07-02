@@ -4,7 +4,7 @@ describe 'the add project process' do
   it 'adds a new lesson' do
     test_skill = Skill.create({:name => 'random skill', :description => 'random description', :number => 1})
     visit skill_path(test_skill)
-    click_on 'Add a new project'
+    click_on 'Add project to random skill'
     fill_in 'Name', :with => 'random project'
     fill_in 'Description', :with => 'random project'
     fill_in 'Number', :with => 1
