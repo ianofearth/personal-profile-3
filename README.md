@@ -18,6 +18,7 @@
 <li>In the command line type: 'rake db:migrate' to load the tables</li>
 <li>To initiate a postgress session type the following in the command line: postgres</li>
 <li>In a new command line window type: 'rails server' to start the server</li>
+<li>Visit localhost:3000 to begin creating your own personal portfolio!</li>
 </ol>
 </p>
 
