@@ -30,12 +30,20 @@ class ProjectsController < ApplicationController
     @project = Project.find(params[:id])
     if @project.update(project_params)
       flash[:notice] = @project.name + " has been edited!"
-      redirect_to skill_project_path
+      redirect_to skill_project_path(@skill, @project)
     else
       render :edit
     end
   end
-  
+
+  def destroy
+    @skill = Skill.find(params[:skill_id])
+    @project = Project.find(params[:id])
+    @project.destroy
+    flash[:notice] = @project.name + " has been deleted!"
+    redirect_to skill_path(@skill)
+  end
+
 private
   def project_params
     params.require(:project).permit(:name, :description, :number)

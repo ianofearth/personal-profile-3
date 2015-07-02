@@ -2,3 +2,7 @@
 <h3><%= @project.description %></h3>
 
 <p><%= link_to "Edit " + @project.name, edit_skill_project_path %></p>
+
+<p><%= link_to "Delete " + @project.name, skill_project_path(@skill, @project),
+                            :data =>{:confirm => "Are you sure you want to delete " + @project.name + " from " + @skill.name + "?",
+                              :method => 'delete'} %></p>
