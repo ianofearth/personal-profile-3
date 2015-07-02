@@ -21,6 +21,7 @@
 </ol>
 </p>
 
-#Bug reports: <p>There are currently no known bugs to personal_portfolio.  Any discovered bugs should be reoprted directly to the programs creator at thisisnotarealemail@gmail.com</p>
+#Bug reports: 
+<p>There are currently no known bugs to personal_portfolio.  Any discovered bugs should be reoprted directly to the programs creator at thisisnotarealemail@gmail.com</p>
 #Licenses and Copywright info: <p>ianofearth License.  Copyright 2015 ianofearth industries.</p>
 #<h2>You are not granted rights or licenses to the trademarks of ianofearth industries without the express written consent of ianofearth industries.</h2>
