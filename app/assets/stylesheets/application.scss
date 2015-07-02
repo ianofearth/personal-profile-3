@@ -21,3 +21,15 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
+.divs, .intro, .altering, .content {
+  background: rgba(255,255,255,0.5);
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.intro, .altering {
+  text-align: center;
+}

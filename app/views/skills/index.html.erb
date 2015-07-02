@@ -1,9 +1,35 @@
-<h1>Skills/Competencies</h1>
+<div class="container">
+  <div class= "intro">
+    <h1>Welcome to Ian Bevel's personal profile!</h1>
+    <h4>Learn all about my journey into the exciting world of Programming!</h4>
+  </div>
+</div>
 
-<ul>
-  <% @skills.each do |skill| %>
-    <li><%= link_to skill.name, skill_path(skill) %></li>
-  <% end %>
-</ul>
 
-<%= link_to 'Add a Skill', new_skill_path %>
+<div class="container">
+  <div class="col-md-6">
+    <div class="divs">
+      <h3>About Ian:</h3>
+      <p>This is just filler text until I decide what is actually going to go in here.  I am thinking some basic bio stuff and maybe a link to my resume.</p>
+    </div>
+    <div class="divs">
+      <h3>Contact Ian:</h3>
+      <p>Email: ian.anthony.bevel@gmail.com</p>
+      <p>Phone: (971) 404-8409</p>
+    </div>
+  </div>
+
+  <div class="col-md-6 divs">
+    <h1>Skills/Competencies</h1>
+    <p>Click the link to view projects where I used the skill!</p>
+
+    <ul>
+      <% @skills.each do |skill| %>
+        <li><h4><%= link_to skill.name, skill_path(skill) %></h4></li>
+      <% end %>
+    </ul>
+
+    <%= link_to 'Add a Skill', new_skill_path, :class => "btn btn-success" %>
+  </div>
+
+</div>

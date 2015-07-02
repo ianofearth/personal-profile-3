@@ -1,8 +1,19 @@
-<h1><%= @project.name %></h1>
-<h3><%= @project.description %></h3>
+<div class= "container">
+  <div class="intro">
+    <h1><%= @project.name %></h1>
+  </div>
+  <div class="content">
+    <h3><%= @project.description %></h3>
+  </div>
 
-<p><%= link_to "Edit " + @project.name, edit_skill_project_path %></p>
+  <div class="altering">
+    <p><%= link_to "Edit " + @project.name, edit_skill_project_path, :class => "btn btn-primary" %>
 
-<p><%= link_to "Delete " + @project.name, skill_project_path(@skill, @project),
-                            :data =>{:confirm => "Are you sure you want to delete " + @project.name + " from " + @skill.name + "?",
-                              :method => 'delete'} %></p>
+    <%= link_to "Delete " + @project.name, skill_project_path(@skill, @project), :class => "btn btn-danger",
+                                :data =>{:confirm => "Are you sure you want to delete " + @project.name + " from " + @skill.name + "?",
+                                  :method => 'delete'} %></p>
+  </div>
+
+  <p><%= link_to "Back to " + @skill.name + " page", skill_path, :class => "btn btn-default" %></p>
+
+</div>
