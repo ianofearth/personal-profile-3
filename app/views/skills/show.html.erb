@@ -1,6 +1,20 @@
 <h1><%= @skill.name %></h1>
 <h3><%= @skill.description %></h3>
 
+<% if @skill.projects.any? %>
+<h4>Here are all the projects that demonstrate the use of <%= @skill.name %>:</h4>
+
+  <ul>
+    <% @skill.projects.each do |project| %>
+      <li><%= project.name %></li>
+    <% end %>
+  </ul>
+
+<% else %>
+  <h4>There are no projects associated with <%= @skill.name %> yet. </h4>
+
+<% end %>
+
 <p><%= link_to "Edit " + @skill.name, edit_skill_path(@skill) %></p>
 
 <p><%= link_to "Delete " + @skill.name, skill_path(@skill),
