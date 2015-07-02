@@ -13,10 +13,10 @@
 <li>Change directory to personal_portfolio: cd personal_portfolio</li>
 <li>Download and install bundler</li>
 <li>To gain access to the proper versions of gems, in the command line run: bundle</li>
-<li>To initiate a postgress session type the following in the command line: postgress</li>
 <li>In the command line type: 'rails db:create' to create the database</li>
+<li>In the command line type: 'rake db:migrate' to load the tables</li>
+<li>To initiate a postgress session type the following in the command line: postgres</li>
 <li>In a new command line window type: 'rails server' to start the server</li>
-<li></li>
 </ol>
 </p>
 
