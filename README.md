@@ -1,6 +1,7 @@
 #Author Name: Ian Bevel
 #Program Name: Personal Portfolio
-#Description: <p>The personal_portfolio program is a ruby on rails program that will allow the user to add, edit and delete skills and competencies to a home page along with project information using those skills/competencies.</p>
+#Description: 
+<p>The personal_portfolio program is a ruby on rails program that will allow the user to add, edit and delete skills and competencies to a home page along with project information using those skills/competencies.</p>
 #Set-up instructions: 
 <p>All gems in Gemfile must be bundled and a Gemfile.lock file created prior to running this app.</p>
 <ol>
@@ -20,7 +21,6 @@
 </ol>
 </p>
 
-#Bug reports: <p>There are currently no known bugs to personal_portfolio.  Any discovered bugs should be reoprted 
-directly to the programs creator at thisisnotarealemail@gmail.com</p>
+#Bug reports: <p>There are currently no known bugs to personal_portfolio.  Any discovered bugs should be reoprted directly to the programs creator at thisisnotarealemail@gmail.com</p>
 #Licenses and Copywright info: <p>ianofearth License.  Copyright 2015 ianofearth industries.</p>
 #<h2>You are not granted rights or licenses to the trademarks of ianofearth industries without the express written consent of ianofearth industries.</h2>
