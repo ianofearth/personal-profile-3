@@ -12,7 +12,7 @@ describe "the add skill process" do
   end
 
   it "gives error when no skill is entered" do
-    visit new_subject_path
+    visit new_skill_path
     click_on 'Create Skill'
     expect(page).to have_content 'errors'
   end
