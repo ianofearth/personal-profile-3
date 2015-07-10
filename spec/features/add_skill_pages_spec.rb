@@ -2,7 +2,12 @@ require 'rails_helper'
 
 describe "the add skill process" do
   it "adds a new skill" do
-    visit skills_path
+    user = FactoryGirl.create(:user)
+    visit '/'
+    click_on 'Log In'
+    fill_in 'Username', :with => 'ian'
+    fill_in 'Password', :with => '1234'
+    click_on 'Sign In'
     click_on "Add a Skill"
     fill_in 'Name', :with => 'random skill'
     fill_in 'Description', :with => 'random skill'
