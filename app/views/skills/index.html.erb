@@ -31,7 +31,7 @@
 
     <%= link_to 'Add a Skill', new_skill_path, :class => "btn btn-success" %>
   </div>
-
-  <%= link_to 'View Posts', posts_path %>
-
+  <% if current_user != nil %>
+    <%= link_to 'View Posts', user_posts_path(@user, @posts) %>
+  <% end %>
 </div>

@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-describe "the add question process" do
-  it "creates a new question" do
+describe "the add post process" do
+  it "creates a new post" do
     user = FactoryGirl.create(:user)
     visit '/'
     click_on 'Log In'

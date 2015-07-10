@@ -1,6 +1,7 @@
 class SkillsController < ApplicationController
   def index
     @skills = Skill.all
+    @user = current_user
   end
 
   def show

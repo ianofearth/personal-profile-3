@@ -1,9 +1,9 @@
 <h1>Ian's Blog Posts</h1>
 
+<%= link_to "Add Post", new_user_post_path(@user), :class => "btn btn-success" %> <br/>
 
-<%= link_to "Add Post", new_post_path, :class => "btn btn-success" %>
 
 <% @posts.each do |post| %>
-<%= post.title %>
-<%= post.body %>
+<h3><%= link_to post.title, user_post_path(@user, post) %></h3>
+<h4><%= post.body %></h4>
 <% end %>

@@ -264,8 +264,6 @@
         null,
         null,
         1,
-        null,
-        1,
         1,
         1,
         null,
@@ -274,6 +272,17 @@
         null,
         null,
         1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/Guest/Desktop/personal_portfolio/app/helpers/application_helper.rb": [
@@ -475,7 +484,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/models/post_spec.rb": [
+      "/Users/Guest/Desktop/personal_portfolio/spec/models/comment_spec.rb": [
         1,
         null,
         1,
@@ -484,7 +493,27 @@
         2,
         null
       ],
+      "/Users/Guest/Desktop/personal_portfolio/app/models/comment.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/personal_portfolio/spec/models/post_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
       "/Users/Guest/Desktop/personal_portfolio/app/models/post.rb": [
+        1,
         1,
         1,
         null,
@@ -520,9 +549,11 @@
         2,
         2,
         2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/personal_portfolio/app/models/skill.rb": [
+        1,
         1,
         1,
         1,
@@ -536,9 +567,11 @@
         1,
         2,
         2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/personal_portfolio/app/models/user.rb": [
+        1,
         1,
         1,
         null,
@@ -565,6 +598,7 @@
       "/Users/Guest/Desktop/personal_portfolio/app/controllers/skills_controller.rb": [
         1,
         1,
+        15,
         15,
         null,
         null,
@@ -620,7 +654,8 @@
         1,
         null,
         1,
-        99,
+        129,
+        null,
         null,
         null,
         1,
@@ -657,8 +692,15 @@
         null,
         1,
         2,
+        2,
         null,
         null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
         1,
         1,
         null,
@@ -672,6 +714,29 @@
         null,
         0,
         null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
         null,
         null,
         1,
@@ -760,6 +825,6 @@
         null
       ]
     },
-    "timestamp": 1436554525
+    "timestamp": 1436565420
   }
 }

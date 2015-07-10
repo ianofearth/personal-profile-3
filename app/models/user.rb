@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
   has_many :posts
+  has_many :skills
 
   attr_accessor :password
   validates_confirmation_of :password
