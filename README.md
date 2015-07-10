@@ -1,7 +1,14 @@
 #Author Name: Ian Bevel
 #Program Name: Personal Portfolio
+#NOTES: IMPORTANT!!!
+<p>There is a single seeded admin.  This is the only user with all capabilities of the side, including adding and deleting most items.  Here are the details:</p>
+<ul>
+<li>Username: "admin"</li>
+<li>Password: "1234"</li>
+</ul>
+<p>These parameters should be edited <u>immediately</u> to avoid another user taking control of your admin privilages!</p>
 #Description: 
-<p>The personal_portfolio program is a ruby on rails program that will allow the user to add, edit and delete skills and competencies to a home page along with project information using those skills/competencies.</p>
+<p>The personal_portfolio program is a ruby on rails program that will allow the user to add, edit and delete skills and competencies to a home page along with project information using those skills/competencies.  It also contains a blog portion of the site where an admin can add blog posts and other users can post comments to those posts.</p>
 #Set-up instructions: 
 <p>All gems in Gemfile must be bundled and a Gemfile.lock file created prior to running this app.</p>
 <ol>
