@@ -1,7 +1,7 @@
 #Author Name: Ian Bevel
 #Program Name: Personal Portfolio
 #NOTES: IMPORTANT!!!
-<p>There is a single seeded admin.  This is the only user with all capabilities of the side, including adding and deleting most items.  Here are the details:</p>
+<p>There is a single seeded admin.  This is the only user with all capabilities of the site, including adding and deleting most items.  Here are the details:</p>
 <ul>
 <li>Username: "admin"</li>
 <li>Password: "1234"</li>
