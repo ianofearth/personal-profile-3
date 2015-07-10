@@ -17,7 +17,8 @@ describe "the add skill process" do
   end
 
   it "gives error when no skill is entered" do
-    visit new_skill_path
+    user = FactoryGirl.create(:user)
+    visit new_user_skill_path(user)
     click_on 'Create Skill'
     expect(page).to have_content 'errors'
   end

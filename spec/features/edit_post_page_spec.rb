@@ -13,10 +13,14 @@ describe "the add post process" do
     fill_in 'Title', :with => 'The Meaning of Life'
     fill_in 'Body', :with => "I dunno man, it's tough."
     click_on 'Add Post'
-    expect(page).to have_content "The Meaning of Life has been added."
+    click_on 'The Meaning of Life'
+    click_on 'Edit Post'
+    fill_in 'Body', :with => "I dunno man, it's really tough."
+    click_on 'Add Post'
+    expect(page).to have_content "I dunno man, it's really tough."
   end
 
-  it "gives error when no post is entered" do
+  it "gives an error when no post is entered" do
     user = FactoryGirl.create(:user)
     visit '/'
     click_on 'Log In'
@@ -25,9 +29,14 @@ describe "the add post process" do
     click_on 'Sign In'
     click_on 'View Posts'
     click_on 'Add Post'
+    fill_in 'Title', :with => 'The Meaning of Life'
+    fill_in 'Body', :with => "I dunno man, it's tough."
+    click_on 'Add Post'
+    click_on 'The Meaning of Life'
+    click_on 'Edit Post'
+    fill_in 'Body', :with => ""
     click_on 'Add Post'
     expect(page).to have_content 'errors'
   end
-
 
 end
