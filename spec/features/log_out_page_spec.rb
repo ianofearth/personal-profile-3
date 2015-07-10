@@ -10,6 +10,6 @@ describe "the user log out process" do
     click_on 'Sign In'
     visit '/'
     click_on 'Log Out'
-    expect(page).to have_content "You've been logged out successfully"
+    expect(page).to have_content "You've been logged out successfully."
   end
 end
