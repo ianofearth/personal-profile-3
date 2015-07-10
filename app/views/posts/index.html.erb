@@ -1,7 +1,8 @@
 <h1>Ian's Blog Posts</h1>
 
-<%= link_to "Add Post", new_user_post_path(@user), :class => "btn btn-success" %> <br/>
-
+<% if current_user != nil && current_user.admin %>
+  <%= link_to "Add Post", new_user_post_path(@user), :class => "btn btn-success" %> <br/>
+<% end %>
 
 <% @posts.each do |post| %>
 <h3><%= link_to post.title, user_post_path(@user, post) %></h3>

@@ -29,7 +29,9 @@
       <% end %>
     </ul>
 
-    <%= link_to 'Add a Skill', new_skill_path, :class => "btn btn-success" %>
+    <% if current_user != nil && current_user.admin %>
+      <%= link_to 'Add a Skill', new_skill_path, :class => "btn btn-success" %>
+    <% end %>
   </div>
   <% if current_user != nil %>
     <%= link_to 'View Posts', user_posts_path(@user, @posts) %>

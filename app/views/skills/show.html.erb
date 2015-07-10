@@ -25,22 +25,24 @@
           <h4>There are no projects associated with <%= @skill.name %> yet. </h4>
 
         <% end %>
-
-        <p><%= link_to "Add project to " + @skill.name, new_skill_project_path(@skill), :class => "btn btn-success" %></p>
+        <% if current_user != nil && current_user.admin %>
+          <p><%= link_to "Add project to " + @skill.name, new_skill_project_path(@skill), :class => "btn btn-success" %></p>
+        <% end %>
       </div>
     </div>
   </div>
+  <% if current_user != nil && current_user.admin %>
+    <div class= 'altering'>
+        <p>
+          <%= link_to "Edit " + @skill.name, edit_skill_path(@skill), :class => "btn btn-primary" %>
 
-  <div class= 'altering'>
-    <p>
-    <%= link_to "Edit " + @skill.name, edit_skill_path(@skill), :class => "btn btn-primary" %>
+          <%= link_to "Delete " + @skill.name, skill_path(@skill), :class => "btn btn-danger",
+                                    :data => {:confirm => "Are you sure you want to delete" + @skill.name + "?",
+                                              :method => 'delete'} %>
+        </p>
 
-    <%= link_to "Delete " + @skill.name, skill_path(@skill), :class => "btn btn-danger",
-                              :data => {:confirm => "Are you sure you want to delete" + @skill.name + "?",
-                                        :method => 'delete'} %>
-    </p>
-  </div>
-
+    </div>
+  <% end %>
   <br>
 
   <p><%= link_to "Return to Skills", skills_path, :class => "btn btn-default" %></p>
