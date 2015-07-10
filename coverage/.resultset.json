@@ -275,6 +275,8 @@
         1,
         1,
         null,
+        null,
+        1,
         null
       ],
       "/Users/Guest/Desktop/personal_portfolio/app/helpers/application_helper.rb": [
@@ -459,9 +461,11 @@
         1,
         2,
         2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/personal_portfolio/app/models/post.rb": [
+        1,
         1,
         null,
         1,
@@ -510,10 +514,12 @@
         1,
         null,
         1,
-        null,
+        2,
+        2,
         null
       ],
       "/Users/Guest/Desktop/personal_portfolio/app/models/user.rb": [
+        1,
         1,
         null,
         1,
@@ -704,6 +710,6 @@
         null
       ]
     },
-    "timestamp": 1436552541
+    "timestamp": 1436553419
   }
 }
