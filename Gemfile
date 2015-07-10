@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'pry'
 gem 'bootstrap-sass'
+gem 'bcrypt', require: "bcrypt"
 
 group :development do
   gem 'byebug'
