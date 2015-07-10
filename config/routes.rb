@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  # root :to => 'skills#index'
+  root :to => 'skills#index'
 
-  get '/' => 'home#index'
+  # get '/' => 'home#index'
 
   resources :users
 

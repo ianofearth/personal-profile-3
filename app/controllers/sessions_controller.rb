@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
     if @user
       flash[:notice] = "Welcome " + @user.username + "!"
       session[:user_id] = @user.id
-      redirect_to "/"
+      redirect_to skills_path
     else
       flash[:alert] = "There was a problem logging you in."
       redirect_to log_in_path
