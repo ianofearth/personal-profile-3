@@ -1,3 +1,5 @@
+#DEBBIE!!!
+<p>I did not have time to deploy the app to heroku.  Also the new bits are lacking in the styling department.  Had a bit of trouble with the relationships part today and it took me longer than expected to fix once I realized I needed to.  Sorry!</p>
 #Author Name: Ian Bevel
 #Program Name: Personal Portfolio
 #NOTES: IMPORTANT!!!
