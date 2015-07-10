@@ -249,6 +249,17 @@
         null,
         null
       ],
+      "/Users/Guest/Desktop/personal_portfolio/spec/factories.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/personal_portfolio/config/routes.rb": [
         1,
         1,
@@ -379,6 +390,21 @@
         null,
         null
       ],
+      "/Users/Guest/Desktop/personal_portfolio/spec/features/log_in_page_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/personal_portfolio/spec/models/project_spec.rb": [
         1,
         null,
@@ -431,14 +457,14 @@
         1,
         null,
         1,
-        1,
-        1,
+        2,
+        2,
         null,
         null,
         1,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
         null,
         null,
         null,
@@ -449,7 +475,7 @@
       "/Users/Guest/Desktop/personal_portfolio/app/controllers/skills_controller.rb": [
         1,
         1,
-        5,
+        7,
         null,
         null,
         1,
@@ -504,7 +530,7 @@
         1,
         null,
         1,
-        50,
+        57,
         null,
         null,
         1,
@@ -586,8 +612,34 @@
         null,
         null,
         null
+      ],
+      "/Users/Guest/Desktop/personal_portfolio/app/controllers/sessions_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1436549670
+    "timestamp": 1436550713
   }
 }
