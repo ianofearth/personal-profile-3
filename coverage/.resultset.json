@@ -453,6 +453,22 @@
         null,
         null
       ],
+      "/Users/Guest/Desktop/personal_portfolio/spec/models/post_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null
+      ],
+      "/Users/Guest/Desktop/personal_portfolio/app/models/post.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/personal_portfolio/spec/models/project_spec.rb": [
         1,
         null,
@@ -688,6 +704,6 @@
         null
       ]
     },
-    "timestamp": 1436551942
+    "timestamp": 1436552541
   }
 }
