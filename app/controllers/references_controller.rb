@@ -1,5 +1,14 @@
 class ReferencesController < ApplicationController
 
+  def index
+    @user = User.find(params[:id])
+    @references = Reference.all
+    respond_to do |format|
+      format.html { redirect_to user_references_path(@user, @reference) }
+      format.js
+    end
+  end
+
   def new
     @user = current_user
     @reference = @user.references.new
