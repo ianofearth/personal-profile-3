@@ -8,6 +8,7 @@ class CommentsController < ApplicationController
   def create
     @post = Post.find(params[:post_id])
     @user = User.find(@post.user_id)
+    @comments = @post.comments
     @comment = @post.comments.new(comment_params)
     if @comment.save
       flash[:notice] = "Comment added to " + @post.title + "."
