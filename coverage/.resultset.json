@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/add_comment_page_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/add_comment_page_spec.rb": [
         1,
         null,
         1,
@@ -46,7 +46,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/rails_helper.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -100,14 +100,14 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/config/environment.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/personal_portfolio/config/application.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/config/application.rb": [
         1,
         null,
         1,
@@ -144,12 +144,12 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/config/boot.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Guest/Desktop/personal_portfolio/config/environments/test.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/config/environments/test.rb": [
         1,
         null,
         null,
@@ -193,7 +193,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/config/initializers/assets.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -206,7 +206,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/config/initializers/backtrace_silencers.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -215,18 +215,18 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/config/initializers/cookies_serializer.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/personal_portfolio/config/initializers/filter_parameter_logging.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/personal_portfolio/config/initializers/inflections.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -244,18 +244,18 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/config/initializers/mime_types.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/config/initializers/session_store.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/personal_portfolio/config/initializers/wrap_parameters.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -271,7 +271,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/factories.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/factories.rb": [
         1,
         1,
         1,
@@ -283,7 +283,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/config/routes.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/config/routes.rb": [
         1,
         1,
         null,
@@ -311,11 +311,11 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/app/helpers/application_helper.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/add_post_page_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/add_post_page_spec.rb": [
         1,
         null,
         1,
@@ -346,68 +346,11 @@
         1,
         1,
         null,
-        null,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/add_project_pages_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/add_skill_pages_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/add_user_profile_error_page_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/add_project_pages_spec.rb": [
         1,
         null,
         1,
@@ -415,6 +358,19 @@
         1,
         1,
         1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
         1,
         1,
         1,
@@ -423,7 +379,35 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/add_user_profile_page_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/add_skill_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/add_user_profile_error_page_spec.rb": [
         1,
         null,
         1,
@@ -439,15 +423,9 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/delete_post_page_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/add_user_profile_page_spec.rb": [
         1,
         null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
         1,
         1,
         1,
@@ -461,9 +439,12 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/delete_project_pages_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/delete_post_page_spec.rb": [
         1,
         null,
+        1,
+        1,
+        1,
         1,
         1,
         1,
@@ -480,7 +461,26 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/delete_skill_pages_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/delete_project_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/delete_skill_pages_spec.rb": [
         1,
         null,
         1,
@@ -499,7 +499,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/edit_post_page_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/edit_post_page_spec.rb": [
         1,
         null,
         1,
@@ -543,7 +543,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/edit_project_pages_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/edit_project_pages_spec.rb": [
         1,
         null,
         1,
@@ -566,7 +566,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/edit_skill_pages_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/edit_skill_pages_spec.rb": [
         1,
         null,
         1,
@@ -588,7 +588,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/log_in_error_page_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/log_in_error_page_spec.rb": [
         1,
         null,
         1,
@@ -603,7 +603,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/log_in_page_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/log_in_page_spec.rb": [
         1,
         null,
         1,
@@ -618,7 +618,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/log_out_page_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/log_out_page_spec.rb": [
         1,
         null,
         1,
@@ -635,7 +635,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/features/view_skills_page_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/features/view_skills_page_spec.rb": [
         null,
         null,
         null,
@@ -647,7 +647,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/models/comment_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/models/comment_spec.rb": [
         1,
         null,
         1,
@@ -656,7 +656,7 @@
         2,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/app/models/comment.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/app/models/comment.rb": [
         1,
         1,
         null,
@@ -665,27 +665,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/models/post_spec.rb": [
-        1,
-        null,
-        1,
-        2,
-        2,
-        2,
-        2,
-        null
-      ],
-      "/Users/Guest/Desktop/personal_portfolio/app/models/post.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/models/project_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/models/post_spec.rb": [
         1,
         null,
         1,
@@ -695,7 +675,27 @@
         2,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/app/models/project.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/app/models/post.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/models/project_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/Guest/Desktop/personal-portfolio-2/app/models/project.rb": [
         1,
         1,
         null,
@@ -704,7 +704,7 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/models/skill_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/models/skill_spec.rb": [
         1,
         null,
         1,
@@ -715,7 +715,7 @@
         2,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/app/models/skill.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/app/models/skill.rb": [
         1,
         1,
         1,
@@ -724,7 +724,7 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/spec/models/user_spec.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/spec/models/user_spec.rb": [
         1,
         null,
         1,
@@ -733,7 +733,7 @@
         2,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/app/models/user.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/app/models/user.rb": [
         1,
         1,
         1,
@@ -758,7 +758,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/app/controllers/skills_controller.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/app/controllers/skills_controller.rb": [
         1,
         1,
         34,
@@ -810,7 +810,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/app/controllers/application_controller.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -824,7 +824,7 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/app/controllers/sessions_controller.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/app/controllers/sessions_controller.rb": [
         1,
         null,
         1,
@@ -850,7 +850,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/app/controllers/posts_controller.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/app/controllers/posts_controller.rb": [
         1,
         null,
         1,
@@ -912,7 +912,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/app/controllers/comments_controller.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/app/controllers/comments_controller.rb": [
         1,
         null,
         1,
@@ -938,7 +938,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/app/controllers/projects_controller.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/app/controllers/projects_controller.rb": [
         1,
         1,
         2,
@@ -991,7 +991,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/personal_portfolio/app/controllers/users_controller.rb": [
+      "/Users/Guest/Desktop/personal-portfolio-2/app/controllers/users_controller.rb": [
         1,
         null,
         1,
@@ -1016,6 +1016,6 @@
         null
       ]
     },
-    "timestamp": 1436571647
+    "timestamp": 1437147262
   }
 }
