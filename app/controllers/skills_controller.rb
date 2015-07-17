@@ -2,7 +2,9 @@ class SkillsController < ApplicationController
   def index
     @skills = Skill.all
     @user = current_user
-    @references = @user.references
+    if current_user
+      @references = Reference.all
+    end
   end
 
   def show

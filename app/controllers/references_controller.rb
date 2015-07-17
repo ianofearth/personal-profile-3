@@ -1,21 +1,14 @@
 class ReferencesController < ApplicationController
 
-  def index
-    @user = User.find(params[:id])
-    @references = Reference.all
-    respond_to do |format|
-      format.html { redirect_to user_references_path(@user, @reference) }
-      format.js
-    end
-  end
+
 
   def new
-    @user = current_user
+    @user = User.find(params[:user_id])
     @reference = @user.references.new
   end
 
   def create
-    @user = current_user
+    @user = User.find(params[:user_id])
     @reference = @user.references.new(reference_params)
     if @reference.save
       flash[:notice] = "Reference added."

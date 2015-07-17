@@ -1,12 +1,9 @@
-<div class="container">
-  <div class= "intro">
-    <h1>Welcome to Ian Bevel's personal profile!</h1>
-    <h4>Learn all about my journey into the exciting world of Programming!</h4>
-  </div>
+<div class= "intro">
+  <h1>Welcome to Ian Bevel's personal profile!</h1>
+  <h4>Learn all about my journey into the exciting world of Programming!</h4>
 </div>
 
-
-<div class="container">
+<div class="row">
   <div class="col-md-6">
     <div class="divs">
       <h3>About Ian:</h3>
@@ -33,14 +30,21 @@
     <%= link_to 'Add a Skill', new_skill_path, :class => "btn btn-success" %>
     <% end %>
   </div>
-  <% if current_user != nil %>
+</div>
+
+<% if current_user %>
+  <%= link_to 'View Posts', user_posts_path(@user, @posts), class: 'btn btn-success' %>
   <button name="see_references" class='btn btn-success' id="see_references" type="submit">See References</button>
   <button name="hide_references" class='btn btn-success' id="hide_references" type="submit">Hide References</button>
 
-    <%= link_to 'View Posts', user_posts_path(@user, @posts) %>
-    <%= link_to 'Add Reference', new_user_reference_path(@user, @reference), id: 'add_reference_link', remote: true %>
-    <ul id="references_list">
+
+    <%= link_to 'Add Reference', new_user_reference_path(@user, @reference), class: 'btn btn-success',id: 'add_reference_link', remote: true %>
+
+
+
+  <ul id="references_list">
+    <div class="divs">
       <%= render(@references) %>
-    <ul>
-  <% end %>
-</div>
+    </div>
+  <ul>
+<% end %>
