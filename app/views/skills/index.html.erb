@@ -34,8 +34,10 @@
     <% end %>
   </div>
   <% if current_user != nil %>
-  <%= link_to 'View Posts', user_posts_path(@user, @posts) %>
-  <%= link_to 'Add Reference', new_user_reference_path(@user, @references), remote: true %>
-  <%= render(@references) %>
+    <%= link_to 'View Posts', user_posts_path(@user, @posts) %>
+    <%= link_to 'Add Reference', new_user_reference_path(@user, @reference), id: 'add_reference_link', remote: true %>
+    <ul id="references_list">
+      <%= render(@references) %>
+    <ul>
   <% end %>
 </div>
