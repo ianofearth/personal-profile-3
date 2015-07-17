@@ -1,5 +1,5 @@
 #DEBBIE!!!
-<p>I did not have time to deploy the app to heroku.  Also the new bits are lacking in the styling department.  Had a bit of trouble with the relationships part today and it took me longer than expected to fix once I realized I needed to.  Sorry!</p>
+<p>I had some issues with rspec.  In order to implement the show/hide feature for references I added a scripts file (app/assets/javascripts/scripts.js).  Rspec did not seem to like this and any spec I wrote got hung up on this file.  I googled around and could not find a solution.  Thus, I have two failing specs for adding comments to a post.</p>
 #Author Name: Ian Bevel
 #Program Name: Personal Portfolio
 #NOTES: IMPORTANT!!!
@@ -10,9 +10,10 @@
 </ul>
 <p>These parameters should be edited <u>immediately</u> to avoid another user taking control of your admin privilages!</p>
 #Description: 
-<p>The personal_portfolio program is a ruby on rails program that will allow the user to add, edit and delete skills and competencies to a home page along with project information using those skills/competencies.  It also contains a blog portion of the site where an admin can add blog posts and other users can post comments to those posts.</p>
+<p>The personal_portfolio program is a ruby on rails program that will allow the user to add, edit and delete skills and competencies to a home page along with project information using those skills/competencies.  It also contains a blog portion of the site where an admin can add blog posts and other users can post comments to those posts.  Ajax functionality was introduced in the most recent version of the program when dealing with comments and references.</p>
 #Set-up instructions: 
 <p>All gems in Gemfile must be bundled and a Gemfile.lock file created prior to running this app.</p>
+<p>Phantomjs must be installed in order to test specs for any ajax related functions.  This is accomplished by typing: "npm install phantomjs" in the command line.</p>
 <ol>
 <li>Go to www.github.com/ianofearth</li>
 <li>Check the repositories tab and locate the "personal_portfolio" project folder</li>
