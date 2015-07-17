@@ -25,15 +25,17 @@
 
     <ul>
       <% @skills.each do |skill| %>
-        <li><h4><%= link_to skill.name, skill_path(skill) %></h4></li>
+      <li><h4><%= link_to skill.name, skill_path(skill) %></h4></li>
       <% end %>
     </ul>
 
     <% if current_user != nil && current_user.admin %>
-      <%= link_to 'Add a Skill', new_skill_path, :class => "btn btn-success" %>
+    <%= link_to 'Add a Skill', new_skill_path, :class => "btn btn-success" %>
     <% end %>
   </div>
   <% if current_user != nil %>
-    <%= link_to 'View Posts', user_posts_path(@user, @posts) %>
+  <%= link_to 'View Posts', user_posts_path(@user, @posts) %>
+  <%= link_to 'Add Reference', new_user_reference_path(@user, @references), remote: true %>
+  <%= render(@references) %>
   <% end %>
 </div>

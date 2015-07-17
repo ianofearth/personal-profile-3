@@ -2,6 +2,7 @@ class SkillsController < ApplicationController
   def index
     @skills = Skill.all
     @user = current_user
+    @references = @user.references
   end
 
   def show
