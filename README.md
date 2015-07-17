@@ -1,4 +1,4 @@
-#DEBBIE!!!
+#Debbie:
 <p>I had some issues with rspec.  In order to implement the show/hide feature for references I added a scripts file (app/assets/javascripts/scripts.js).  Rspec did not seem to like this and any spec I wrote got hung up on this file.  I googled around and could not find a solution.  Thus, I have two failing specs for adding comments to a post.</p>
 #Author Name: Ian Bevel
 #Program Name: Personal Portfolio
