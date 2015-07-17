@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe "the add comment process" do
-  it "add a comment" do
+  it "add a comment", js: true do
     user = FactoryGirl.create(:user)
     visit '/'
     click_on 'Log In'
@@ -22,7 +22,7 @@ describe "the add comment process" do
   end
 
   describe "the add comment process" do
-    it "will error if no comment is entered" do
+    it "will error if no comment is entered", js: true do
       user = FactoryGirl.create(:user)
       visit '/'
       click_on 'Log In'
