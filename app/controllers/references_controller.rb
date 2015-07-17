@@ -1,7 +1,5 @@
 class ReferencesController < ApplicationController
 
-
-
   def new
     @user = User.find(params[:user_id])
     @reference = @user.references.new

@@ -37,10 +37,9 @@
   <button name="see_references" class='btn btn-success' id="see_references" type="submit">See References</button>
   <button name="hide_references" class='btn btn-success' id="hide_references" type="submit">Hide References</button>
 
-
+  <% if current_user.admin %>
     <%= link_to 'Add Reference', new_user_reference_path(@user, @reference), class: 'btn btn-success',id: 'add_reference_link', remote: true %>
-
-
+  <% end %>
 
   <ul id="references_list">
     <div class="divs">
